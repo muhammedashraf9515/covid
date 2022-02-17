@@ -1,7 +1,7 @@
 :root {
     --main-color: #3742fa;
     --sec-color: #113474;
-    --white: #f6f8fd;
+    --white: #95a5ce;
     --dark: #344766;
     --red: #FF5363;
     --thrd-color: rgba(80, 101, 142, 0.08);
@@ -220,9 +220,7 @@ header .navbar-light .navbar-nav li button {
     background-position: center;
     background-size: cover;
     padding-bottom: 87px;
-    /* position: absolute; */
     width: 600px;
-    /* background-position: cover; */
 
 }
 
@@ -296,7 +294,10 @@ header .navbar-light .navbar-nav li button {
 
 
 @media (max-width:768px) {
-    
+    .navbar-light {
+        width: 768px;
+    }
+
     .about-texts {
         text-align: center;
 
@@ -327,7 +328,7 @@ header .navbar-light .navbar-nav li button {
 
     .spread-box-image {
         background-color: var(--white);
-        
+
     }
 
     .symptoms-button {
@@ -350,39 +351,206 @@ header .navbar-light .navbar-nav li button {
         width: 160%;
         bottom: 9%;
     }
-    .protect-left-box-text p{
+
+    .protect-left-box-text p {
         font-size: 12px;
 
     }
+
     .protect-right-box {
         margin-bottom: 20px;
         left: 30%;
         width: 160%;
         bottom: 9%;
     }
-    .protect-right-box-text p{
+
+    .protect-right-box-text p {
         font-size: 12px;
 
     }
+
     .protect-middle-boxs img {
         width: 250%;
     }
-    .faq-left-box{
-        width: 70% ;
+
+    .faq-left-box {
+        width: 70%;
     }
+
     .faq-right-box {
         width: 70%;
         margin-left: 120px;
     }
-    .carefull-texts .carefull-left-text h5{
+
+    .carefull-texts .carefull-left-text h5 {
         text-align: center;
     }
-    .carefull-texts .carefull-left-text h2{
+
+    .carefull-texts .carefull-left-text h2 {
         text-align: center;
 
     }
-    .carefull-texts .carefull-left-text p{
+
+    .carefull-texts .carefull-left-text p {
         text-align: center;
+    }
+}
+
+@media (max-width:425px) {
+    .top-bar .navbar {
+        max-width: 425px;
+    }
+
+    .banner-text-info h1 {
+        font-size: 50px;
+    }
+
+    .banner-text-info {
+        padding: 0 !important;
+    }
+
+    .banner-text-info-text p {
+        margin: 20px !important;
+    }
+
+    .btn-container {
+        margin: 20px !important;
+    }
+
+    .btn-container .about-corona {
+
+        margin-left: 85px !important;
+        width: 170px;
+
+    }
+
+    .banner-text-numbers {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .banner-text .update {
+        margin-right: 70px;
+        text-align: center;
+    }
+
+    .banner-image img {
+
+        width: 370px;
+    }
+
+    .about {
+        padding: 40px !important;
+
+    }
+
+    .about-left-text p {
+        width: 200px;
+        text-align: center !important;
+
+        margin-left: 58px;
+    }
+
+    .about-left-text h5 {
+        font-size: 15px !important;
+    }
+
+    .spread-text {
+        margin-right: 120px;
+    }
+
+    .spread-text h2 {
+        font-size: 30px !important;
+    }
+
+    .symptoms-button {
+        padding: 0% !important;
+        margin-left: 0px !important;
+    }
+
+    .symptoms-text h5 {
+        font-size: 14px !important;
+        font-weight: 900 !important;
+    }
+
+    .carefull-texts .carefull-left-text h5 {
+        font-size: 15px;
+    }
+
+    .carefull-texts .carefull-left-text h2 {
+        font-size: 28px;
+    }
+
+    .advice .advice-button-link button {
+        margin-left: 65px;
+        margin-bottom: 15px !important;
+    }
+
+    .advice .advice-button-link a:last-of-type {
+        padding: 10px !important;
+    }
+
+
+    .faq .faq-text h5 {
+        margin-left: 29px;
+    }
+
+    .faq .faq-text h2 {
+        margin-left: 30px !important;
+    }
+
+    .faq-right-box {
+        margin-left: 68px;
+    }
+    .protect-right-boxs {
+        margin-top: 70px !important ;
+        margin-left: 30px;
+    }
+    .protect-middle-boxs img{
+        width: 400px !important;
+    }
+    .protect-left-boxs {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    .btn-container .about-corona {
+        margin-left: 35px !important;
+    }
+
+    .banner-image img {
+        width: 250px;
+    }
+
+    .about-left-text h2 {
+        font-size: 30px !important;
+    }
+
+    .about-left-text p {
+        margin-left: 5px;
+    }
+
+    .advice .advice-button-link button {
+        margin-left: 15px;
+        margin-bottom: 15px !important;
+    }
+
+    .advice .advice-button-link a:last-of-type {
+        padding: 10px !important;
+        margin-left: 28px !important;
+    }
+    .protect-middle-boxs img{
+        width: 290px !important;
+    }
+    .protect-left-boxs {
+        margin-left: 100px;
+    }
+    .protect-right-boxs {
+        margin-left: 10px !important;
+    }
+    .footer-text-box {
+        margin-top: 20px;
     }
 }
 
@@ -398,6 +566,7 @@ header .navbar-light .navbar-nav li button {
 .about-left-text h5 {
     color: var(--main-color);
     font-size: 18px;
+    letter-spacing: 0.1em;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 7px;
@@ -1122,9 +1291,11 @@ header .navbar-light .navbar-nav li button {
     padding: 100px 0;
     margin: auto;
 }
-.faq-right-box .body h3{
+
+.faq-right-box .body h3 {
     color: var(--main-color);
 }
+
 .faq .faq-text {
     width: 100%;
     margin: auto;
@@ -1199,7 +1370,7 @@ header .navbar-light .navbar-nav li button {
 .change-color-border-first {
     color: #2a81ea;
     background-color: white;
-    border: 1px solid  #dee2e6;
+    border: 1px solid #dee2e6;
     border-radius: 1px solid var(--dark);
 
 }
@@ -1234,7 +1405,7 @@ header .navbar-light .navbar-nav li button {
 }
 
 .faq-right-box div ul #active {
-    
+
     list-style: none;
     font-weight: bold;
     display: flex;
@@ -1242,17 +1413,19 @@ header .navbar-light .navbar-nav li button {
     align-items: center;
     margin-bottom: 10px;
     cursor: pointer;
-    
+
     border-radius: 5px;
 }
 
 .faq-right-box div ul li.main-title:hover {
     color: var(--main-color);
 }
+
 .faq-right-box .border-second {
-    border: 1px solid  #dee2e6;
+    border: 1px solid #dee2e6;
     border-radius: 1px solid var(--dark);
 }
+
 .hidden {
     display: none;
 }
@@ -1385,7 +1558,7 @@ footer .footer-texts .footer-text p {
     color: #b2bfe0;
     font-size: 17px;
     margin-bottom: 20px;
-    width: 45vh;
+
 }
 
 .footer-texts .footer-text .footer-icons {
@@ -1437,13 +1610,13 @@ footer .footer-texts .footer-text ul li a {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: bold;
-    margin-left: 70px;
+    margin-left: 29px;
 }
 
 footer .footer-texts .footer-text-box ul li {
     list-style: none;
     margin-bottom: 20px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 footer .footer-texts .footer-text-box ul li a {
@@ -1453,7 +1626,7 @@ footer .footer-texts .footer-text-box ul li a {
 
 footer .footer-copyrights {
     padding-top: 50px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 
 footer .footer-copyrights .copyrights {
