@@ -1,7 +1,7 @@
 :root {
     --main-color: #3742fa;
     --sec-color: #113474;
-    --white: #95a5ce;
+    --white: #fbfcff;
     --dark: #344766;
     --red: #FF5363;
     --thrd-color: rgba(80, 101, 142, 0.08);
@@ -26,7 +26,6 @@
     padding: 0 15px;
     margin: 0 auto;
 }
-jj
 
 
 header {
