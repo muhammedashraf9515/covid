@@ -105,7 +105,7 @@ function spreads() {
 
 // Back to top function
 let scrollToTop = document.querySelector(".scroll-to-top")
-// let bodyScroll = document.querySelector("html,body")
+let bodyScroll = document.querySelector("html,body")
 window.addEventListener("scroll", () => {
     if (bodyScroll.scrollTop >= 100) {
         scrollToTop.style.display = "block"

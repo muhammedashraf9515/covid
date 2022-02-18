@@ -514,6 +514,9 @@ header .navbar-light .navbar-nav li button {
 }
 
 @media (max-width:320px) {
+    .navbar-light{
+        width: 300px;
+    }
     .btn-container .about-corona {
         margin-left: 35px !important;
     }
@@ -1671,4 +1674,7 @@ footer .footer-copyrights .copyrights a {
 
 .scroll-to-top i {
     font-size: 50px;
+}
+.left span{
+    /* display: flex; */
 }
